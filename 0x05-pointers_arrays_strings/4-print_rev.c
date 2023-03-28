@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ * print_rev - reversed string
+ * @s: input
+ * Return: none
+*/
+void print_rev(char *s)
+{
+for (int count = 0; *(s + count) != '\0'; count++);
+for (int i = count - 1; i >= 0; i--);
+_putchar(s[i] + 0);
+_putchar('\n');
+}
+
