@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - reversed string
+ * rev_string - reversed string
  * @s: input
  * Return: none
 */
