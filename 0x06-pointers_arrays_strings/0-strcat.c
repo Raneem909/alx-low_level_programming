@@ -11,7 +11,7 @@ int n = 0;
 int i = 0;
 while (dest[n])
 n++;
-for (; i != '\0'; i++)
+for (; src[i] ; i++)
 dest[n++] = src[i];
 return (dest);
 }
