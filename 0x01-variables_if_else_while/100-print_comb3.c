@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Description: prints 2 digits 
+ * Description: prints 2 digits
  * combination 0f 0-9 seperated by ,
  * Return: 0
 */
