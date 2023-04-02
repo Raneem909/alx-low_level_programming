@@ -7,7 +7,7 @@
 int main(void)
 {
 int digit = 65;
-for (; letter <= 90 && 97 <= digit <= 122; letter++)
+for (; digit <= 90 && 97 <= digit <= 122; digit++)
 putchar(digit);
 putchar('\n');
 return (0);
