@@ -6,9 +6,11 @@
 */
 int main(void)
 {
-int digit = 65;
-for (; digit <= 90 && 97 <= digit <= 122; digit++)
+int digit = 97;
+for (; digit <= 122 ; digit++)
 putchar(digit);
+digit = 65;
+for (; digit <= 90 ; digit++)
 putchar('\n');
 return (0);
 }
