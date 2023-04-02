@@ -11,6 +11,7 @@ for (; digit <= 122 ; digit++)
 putchar(digit);
 digit = 65;
 for (; digit <= 90 ; digit++)
+putchar(digit);
 putchar('\n');
 return (0);
 }
