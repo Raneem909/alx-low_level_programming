@@ -1,0 +1,17 @@
+#include "main.h"
+/**
+ * rev_string - reversed string
+ * @s: input
+ * Return: none
+*/
+void rev_string(char *s)
+{
+int i;
+int count = 0;
+for (; *(s + count) != '\0'; count++)
+;
+for (i = count - 1; i >= 0; i--)
+_putchar(s[i] + 0);
+_putchar('\n');
+}
+
