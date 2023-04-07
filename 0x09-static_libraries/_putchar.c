@@ -1,5 +1,7 @@
 #include <unistd.h>
 
 int _putchar(char c) {
-    return write((1, &c, 1));
+    char buffer[1] = { c };
+    return write(1, buffer, 1);
 }
+
