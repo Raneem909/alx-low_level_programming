@@ -8,15 +8,13 @@
  */
 int main(int argc, char *argv[])
 {
-(void)argv;
-int result, num1, num2;
 
 	if (argc != 3)
 	{
 		return (printf("Error\n"), 1);
 	}
 
-	result = _atoi(num1 * num2);
+	int result = atoi(argv[1] * argv[2]);
 
 	printf("%d\n", result);
 
