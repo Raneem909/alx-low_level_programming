@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * alloc_grid - Returns a pointer to a 2 dimensional array of integers.
@@ -36,4 +36,3 @@ int **alloc_grid(int width, int height)
 
 	return (grid);
 }
-
