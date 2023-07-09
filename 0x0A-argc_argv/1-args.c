@@ -6,7 +6,7 @@
  * @argv: array of pointers to passed strings
  * Return: zero in sucess
 */
-int main (int argc, char **argv)
+int main(int argc, char **argv)
 {
 (void)argv;
 printf("%d\n", argc - 1);
